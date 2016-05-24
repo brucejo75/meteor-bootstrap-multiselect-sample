@@ -1,0 +1,5 @@
+<template name="msExample">
+  {{#Multiselect name='example-multiple-selected' menuItems=myMenuItems selectedList=mySelectedList configOptions=myConfigOptions}}
+    <option value={{value}} {{selectedAttr}}>{{caption}}</option>
+  {{/Multiselect}}
+</template>
